@@ -21,7 +21,7 @@ const port = process.env.PORT || 8000
 //middlewares
 app.use(express.json({limit: '50mb'}))
 app.use(cors({
-    origin: "http://localhost:3000",
+    origin: "https://jotaese1.github.io",
     credentials: true
 }))
 app.use(cookieParser())
