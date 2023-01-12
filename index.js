@@ -6,14 +6,14 @@ const cookieParser = require('cookie-parser');
 const {connection} = require('./db')
 
 //connect to db
-connection.connect(err => {
-    if(err) {
-        console.log(err)
-        console.log("error in db")
-        throw err
-    }
-    console.log('Connected to db')
-})
+// connection.connect(err => {
+//     if(err) {
+//         console.log(err)
+//         console.log("error in db")
+//         throw err
+//     }
+//     console.log('Connected to db')
+// })
 
 //port
 const port = process.env.PORT || 8000
